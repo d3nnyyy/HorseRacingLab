@@ -1,8 +1,10 @@
 #include <iostream>
 #include <list>
 #include <math.h>
+
 #include "Race.h"
 #include "RaceHorse.h"
+
 using namespace std;
 
 int main()
@@ -55,7 +57,6 @@ int main()
     cout << "\nAfter sorting:" << endl;
     for (RaceHorse &racer : race.racerList)
     {
-
         cout << racer.name << "'s age difference is  " << racer.ageDiffer << endl;
     }
 
@@ -64,7 +65,6 @@ int main()
     cout << "\n\nBefore sorting:" << endl;
     for (const RaceHorse &racer : race.racerList)
     {
-
         cout << racer.name << "'s speed is  " << racer.speed << endl;
     }
     race.sortRacersBySpeed();
@@ -72,7 +72,6 @@ int main()
     cout << "\nAfter sorting:" << endl;
     for (const RaceHorse &racer : race.racerList)
     {
-
         cout << racer.name << "'s speed is  " << racer.speed << endl;
     }
 
@@ -80,7 +79,6 @@ int main()
 
     for (const RaceHorse &winner : race.racerList)
     {
-
         cout << "\nThe Winner is " << winner.name << endl;
         break;
     }

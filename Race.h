@@ -1,6 +1,8 @@
 #ifndef RACE_H
 #define RACE_H
+
 #include "RaceHorse.h"
+
 #include <list>
 
 class Race

@@ -1,6 +1,8 @@
 #ifndef RACEHORSE_H
 #define RACEHORSE_H
+
 using namespace std;
+
 #include <iostream>
 #include <string>
 

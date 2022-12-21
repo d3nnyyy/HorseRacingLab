@@ -1,5 +1,6 @@
 #include "Race.h"
 #include "RaceHorse.h"
+
 using namespace std;
 
 // сreating list of racers
